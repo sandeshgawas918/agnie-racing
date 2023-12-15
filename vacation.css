@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans+Narrow&display=swap');
+
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+    overflow-x:hidden;
+  }
+
+*{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    font-size: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+#plan{
+    background: rgba(19, 18, 18, 0.901);
+} 
+
+.grey-col{
+    background: rgba(19, 18, 18, 0.901);
+}
+
+.m-img{
+    height: 90px;
+    width: 90px;
+}
+
+.bg-dark2{
+    background: rgba(11, 11, 11, 0.901);
+}
+
+.landing{
+    background: url(./img/home-background.jpg);
+    background-size:contain;
+    height: 700px;
+    background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+background-color: black;
+}
+
+.trainer-card{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    outline: none;
+}
+.trainer-card:hover{
+    box-shadow: 0px 0px 10px turquoise;
+    color: white;
+    transform: scale(1.1,1.1);
+    border-radius: 20px;
+    outline: none;
+}
+.bg-teal2{
+    background-color: turquoise;
+}
+.text-teal2{
+    color: turquoise;
+}
+.cb{
+    border-radius: 20px;
+}
+.cb:hover{
+    background-color: black;
+    border-radius: 20px;
+    outline: none;
+}
+.text-insta{
+    color: rgb(208, 36, 94);
+}
+.text-twit{
+    color: rgb(10, 184, 227);
+}
+.text-insta{
+    color: rgb(208, 36, 94);
+}
+.text-link{
+    color: skyblue
+}
+
+a:hover{
+    color:  #fb3 !important;; 
+}
+
+@media(max-width:576px){
+    .landing{
+        background: url(./img/home-background.jpg);
+        background-size: cover;
+        height: 30vh;
+    }
+    .m-img{
+        height: 100px;
+    }
+    .navbar{
+        font-size: 15px;
+        padding: 3px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .navbar-brand{
+        font-size: 8px;
+    }
+    .agni{
+    visibility: visible;
+    }
+    .img-card{
+        margin-top: 50px;
+    }
+    body {
+        overflow-x:hidden;
+      }
+}
+
